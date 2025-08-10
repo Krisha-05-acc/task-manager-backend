@@ -26,10 +26,7 @@ app.get('/api/tasks', (req, res) => {
 // --------------------
 
 
-// Catch-all route to serve index.html for React Router
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
+
 
 // --------------------
 // Start Server
