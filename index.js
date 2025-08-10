@@ -24,7 +24,7 @@ app.get('/api/tasks', (req, res) => {
 // --------------------
 // Serve React Frontend
 // --------------------
-app.use(express.static(path.join(__dirname, '../client/build')));
+
 
 // Catch-all route to serve index.html for React Router
 app.get('*', (req, res) => {
