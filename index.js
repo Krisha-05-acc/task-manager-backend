@@ -25,7 +25,9 @@ app.get('/api/tasks', (req, res) => {
 // Serve React Frontend
 // --------------------
 
-
+app.get('/', (req, res) => {
+  res.send('Backend is running!');
+});
 
 
 // --------------------
